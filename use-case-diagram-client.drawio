@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-26T14:02:38.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="WzJ0S30fUKZn-ZZzcTs-" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-26T14:21:52.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="zrNc45sQmAKB40vKPwVe" version="14.8.1" type="github">
   <diagram id="6kZRcd2nzZi-CScO0-am" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,59 +7,38 @@
         <mxCell id="eNLkJmlqLFpq8DJfVEhJ-1" value="مشتری" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="240" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-1" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zZH4B9XZtavpI2Gc8XmQ-2">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-1" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="zZH4B9XZtavpI2Gc8XmQ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="260" as="sourcePoint" />
             <mxPoint x="270" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-2" value="ثبت سفارش" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-2" value="ثبت سفارش" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zZH4B9XZtavpI2Gc8XmQ-5">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-3" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="zZH4B9XZtavpI2Gc8XmQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="275" as="sourcePoint" />
             <mxPoint x="260" y="265" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-4" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="zZH4B9XZtavpI2Gc8XmQ-6">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="120" y="290" as="sourcePoint" />
-            <mxPoint x="260" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-5" value="پراخت هزینه" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-5" value="پراخت هزینه" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-6" value="دریافت غذا" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-7" value="سیستم اعتباری مالی&lt;br&gt;رستوران&lt;br&gt;(صندوق دار)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-7" value="سیستم اعتباری مالی&lt;br&gt;رستوران&lt;br&gt;(صندوق دار)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="550" y="210" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-7" target="zZH4B9XZtavpI2Gc8XmQ-5">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-9" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-7" target="zZH4B9XZtavpI2Gc8XmQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="260" as="sourcePoint" />
             <mxPoint x="540" y="257.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-10" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-7" target="zZH4B9XZtavpI2Gc8XmQ-2">
+        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-10" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-7" target="zZH4B9XZtavpI2Gc8XmQ-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="240" as="sourcePoint" />
             <mxPoint x="670" y="190" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-12">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="400" as="sourcePoint" />
-            <mxPoint x="390" y="350" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="390" y="350" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zZH4B9XZtavpI2Gc8XmQ-12" value="پیک" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="340" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
