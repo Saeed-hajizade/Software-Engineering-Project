@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-27T12:37:20.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="hIkoKI4HxsA-8nVYkxXX" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-27T14:27:54.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="rCZQW5RIgDZdHyhlW5Vu" version="14.8.1" type="github">
   <diagram id="6kZRcd2nzZi-CScO0-am" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -25,17 +25,8 @@
         <mxCell id="zZH4B9XZtavpI2Gc8XmQ-5" value="پراخت هزینه" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YuZ7fpBsX5htOMO5wbOO-1" value="بانک" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="200" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YuZ7fpBsX5htOMO5wbOO-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="329.5" y="140" as="sourcePoint" />
-            <mxPoint x="329.5" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YuZ7fpBsX5htOMO5wbOO-4" value="انصراف از سفارش" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="YuZ7fpBsX5htOMO5wbOO-1" value="درگاه بانک" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="655" y="380" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YuZ7fpBsX5htOMO5wbOO-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-5" target="YuZ7fpBsX5htOMO5wbOO-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -51,6 +42,31 @@
         </mxCell>
         <mxCell id="YuZ7fpBsX5htOMO5wbOO-9" value="نمایش منوی رستوران" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="270" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZ7fpBsX5htOMO5wbOO-17" value="کافی نبودن موجودی" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZ7fpBsX5htOMO5wbOO-18" value="پردازش" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="225" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="YuZ7fpBsX5htOMO5wbOO-42" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="zZH4B9XZtavpI2Gc8XmQ-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="329.5" y="60" as="sourcePoint" />
+            <mxPoint x="329.5" y="90" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZ7fpBsX5htOMO5wbOO-51" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;" edge="1" parent="1" target="YuZ7fpBsX5htOMO5wbOO-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="169.5" as="sourcePoint" />
+            <mxPoint x="560" y="169.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YuZ7fpBsX5htOMO5wbOO-53" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1.017;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.05;entryY=0.764;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zZH4B9XZtavpI2Gc8XmQ-5" target="YuZ7fpBsX5htOMO5wbOO-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="614.8715165506535" y="276.0530958285342" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
