@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T21:58:43.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ry_qgYzSFLhyxBXD1w77" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-30T22:10:25.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tbC6ymDXZmC29MUTdOgT" version="14.8.3" type="github">
   <diagram id="NrKJ2s9aNr0PMgB_rIyL" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,11 +90,32 @@
         <mxCell id="JeyGk07UEmsRUKGqMQCq-30" value="&lt;span&gt;اتصال به درگاه بانکی&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="339" y="620" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="JeyGk07UEmsRUKGqMQCq-31" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="745" width="120" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="JeyGk07UEmsRUKGqMQCq-32" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;پرداخت با موفقییت انجام شد&lt;/span&gt;&#xa;&#xa;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="339" y="890" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JeyGk07UEmsRUKGqMQCq-33" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JeyGk07UEmsRUKGqMQCq-34" value="اانصراف" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="770" as="sourcePoint" />
+            <mxPoint x="690" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JeyGk07UEmsRUKGqMQCq-35" value="عملیات ناموفق" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="745" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JeyGk07UEmsRUKGqMQCq-38" value="درخواست مجدد عملیات" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="920" as="sourcePoint" />
+            <mxPoint x="570" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JeyGk07UEmsRUKGqMQCq-40" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="920" as="sourcePoint" />
+            <mxPoint x="460" y="920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
