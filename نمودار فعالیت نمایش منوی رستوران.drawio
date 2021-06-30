@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T22:11:49.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.3" etag="6q00J39Yw91id9h7rFK-" type="github"><diagram id="xvbnAPUw286y1U2N8Zra">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-30T22:18:09.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="DlCvN13zOQRMlcjVuZmt" version="14.8.3" type="github">
+  <diagram id="xvbnAPUw286y1U2N8Zra" name="Page-1">
+    <mxGraphModel dx="1102" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="410" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="N3NAi0re4-CJV-VL_2n3-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-3" value="درخواست مشتری" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="130" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-4" value="دریافت درخواست" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="N3NAi0re4-CJV-VL_2n3-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="180" as="sourcePoint" />
+            <mxPoint x="474" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="N3NAi0re4-CJV-VL_2n3-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="300" as="sourcePoint" />
+            <mxPoint x="480" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-12" value="قطع اتصال" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="410" as="sourcePoint" />
+            <mxPoint x="540" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-13" value="بررسی مشکل و درخواست مجدد عملیات از مشتری" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-14" value="برقرار بودن اتصال" style="endArrow=classic;html=1;" edge="1" parent="1" target="N3NAi0re4-CJV-VL_2n3-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="450" as="sourcePoint" />
+            <mxPoint x="430" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-15" value="نمایش منوی رستوران به مشتری" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="N3NAi0re4-CJV-VL_2n3-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="560" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N3NAi0re4-CJV-VL_2n3-19" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="415" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
